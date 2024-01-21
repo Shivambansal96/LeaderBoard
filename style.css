@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    height: 100vh;
+    width:  99vw; 
+}
+
+main {
+    /* height: 100vh; */
+    /* width:  99vw;  */
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-style: italic;
+    text-align: center;
+    padding-top: 20px;
+    /* color: red; */
+}
+
+form {
+    padding-top: 2.5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: solid 2px green; */
+    height: 10%;
+
+}
+
+div > label {
+    font-size: 20px;
+}
+
+#first-name, #last-name, #country, #score {
+    padding-left: 5px;
+    height: 30px;
+    cursor: pointer;
+    border: green solid 1px;
+
+}
+
+#submit {
+    font-size: 20px;
+    background-color: red;
+    /* border:  */
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+ul {
+    /* border: solid 2px red; */
+    /* margin-top: 20%; */
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.listJS:hover {
+    transform: scale(1.5);
+    background-color: violet;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in;
+}
+
+/* .removeJS {
+    height: 40%;
+} */
+
+.plusJS, .minusJS, .removeJS {
+    background-color: cyan;
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    color: black;
+    border-radius: 50%;
+}
+
+.plusJS:hover, .minusJS:hover, .removeJS:hover {
+    transform: scale(1.5);
+
+}
+
+.listJS {
+    /* border: solid 2px red; */
+    background-color: rgb(100, 255, 210);
+    border-radius: 20px;
+    height: 20%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.nameJS, .countryJS, .scoreJS {
+    font-size: 18px;
+    font-style: oblique;
+}
+
+
+
+
